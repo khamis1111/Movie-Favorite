@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a, .links {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Utility Classes */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Utility Classes */
+
+.mainBtn {
+  padding: 5px 10px;
+  background: royalblue;
+  border-radius: 10px;
+}
+
+.movieTitle {
+  background: royalblue;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.watchCardContent {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.watchCard:hover .watchCardContent {
+  opacity: 1;
+}
